@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%)) fixed;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: left;
+}
+/*
+Text:
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+- font-family: 'Kumbh Sans', sans-serif;
+
+Neutral Text:
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+Dividers:
+- Light grayish blue: hsl(240, 5%, 91%)
+ */
+
+ #main-container {
+     background: #fff;
+     border-radius: 25px;
+     width: 950px;
+     height: 550px;
+     margin: 0 auto;
+     margin-top: 60px;
+     display: flex;
+     
+     
+     
+ }
+
+.images{
+    height: 100%;
+    position: relative;
+    overflow:hidden;
+}
+
+#imgbg-1{
+    position: absolute;
+    z-index: 0;
+    right: 60px;
+    bottom: -150px;
+
+}
+
+#imgbg-2{
+    position: relative;
+    z-index: 1;
+    right: 50px;
+    top: 90px;
+    
+}
+
+ #imgbg-3 {
+    position: relative;
+    z-index: 2;
+    bottom: 320px;
+    right: 80px;
+    
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+} 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
