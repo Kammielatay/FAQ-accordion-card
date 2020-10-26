@@ -13,7 +13,7 @@
 <body>
   <div id="main-container" >
 
-    <div class="flex-box flex-1">
+    <div class="flex-1">
 
       <div class="images">
         <div>
@@ -27,25 +27,40 @@
 
     </div>
 
-    <div class="flex-box flex-2">
-      <h1>FAQ</h1>
-      <p>How many team members can I invite?</p>
-      <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+    <div class="flex-box">
+      <div class="flex-2">
+        <h1>FAQ</h1>
+  
+        <button class="accordion" >How many team members can I invite?</button>
+        
+        <div class="panel">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+          </p>
+        </div>
+        
+        <button class="accordion">What is the maximum file upload size?</button>
+        <div class="panel">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        
+        <button class="accordion">How do I reset my password?</button>
+        <div class="panel"><span>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.</p>
+          <p>A reset link will be emailed to you.</p></span>
+        </div>
+        
+        <button class="accordion">Can I cancel my subscription?</button>
+        <div class="panel">
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        
+        <button class="accordion">Do you provide addtional support?</button>
+        <div class="panel">
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+
+      </div>
       
-      <p>What is the maximum file upload size?</p>
-      <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
-      
-      <p>How do I reset my password?</p>
-      <p>Click “Forgot password” from the login page or “Change password” from your profile page.</p>
-      <p>A reset link will be emailed to you.</p>
-      
-      <p>Can I cancel my subscription?
-        Yes! Send us a message and we’ll process your request no questions asked.
-      </p>
-      
-      <p>Do you provide additional support?
-        Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-    </div>
   </div>
   
 
@@ -55,10 +70,10 @@
 
 
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Kammie Ingram</a>.
-  </div>
+  </div> -->
   <script src="main.js"></script>
 </body>
 </html>
